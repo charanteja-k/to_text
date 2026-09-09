@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Audio and media files (add extensions as needed)
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+
+# Output text / JSON transcriptions 
+*.txt
+*.json
+
+# OpenAI Whisper downloaded models cache
+.cache/
+
+# System files & IDE configs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
