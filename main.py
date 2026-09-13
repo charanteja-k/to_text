@@ -37,7 +37,7 @@ except Exception as e:
     print(f'Error during transcription : {e}')
     print('Hint: Ensure FFmpeg is installed on your system.')
     sys.exit(1)
-transcription_text = result.get('text','')strip()
+transcription_text = result.get('text','').strip()
 print('\n'+'=+'*50)
 print(transcription_text)
 print('\n'+'=+'*50)
